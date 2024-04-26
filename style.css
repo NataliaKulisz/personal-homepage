@@ -20,25 +20,25 @@ h2 {
     color: #333;
 }
 
-p {
+div {
     margin-bottom: 10px;
 }
 
-ul {
+/* ul {
     list-style-type: none;
-}
+} */
 
 section {
     margin-bottom: 30px;
 }
 
-.name, .navigation-container, .image, .content, .footer, .navigation {
+.language-change, .name, .navigation-container, .image, .content, .footer, .navigation {
     max-width: 800px;
     margin: 4px auto;
     background-color: white;
 }
 
-.name, .navigation-container, .image, .content, .footer {
+.language-change, .name, .navigation-container, .image, .content, .footer {
     border-width: 1px;
     border-color: black;
     border-style: solid;
@@ -70,16 +70,21 @@ section {
     font-size: 24px;
 }
 
-.navigation {
-    padding: 0;
+.language-container, .navigation-container {
     overflow: hidden;
+    padding: 0;
 }
 
-.nav-list {
+.language-change, .navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.language-list, .nav-list {
     display: inline-block;
 }
 
-.nav-element {
+.language-element, .nav-element {
     color: black;
     display: block;
     text-align: center;
@@ -88,7 +93,7 @@ section {
     font-weight: bold;
 }
 
-.nav-element:hover {
+.language-element:hover, .nav-element:hover {
     color: #f06292;
 }
 
