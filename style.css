@@ -13,13 +13,51 @@ body {
     background-color: #eee;
 }
 
-main {
+.header, .content, .footer {
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
-.extbio {
+.content {
+    padding: 10px;
+}
+
+.extbio, .nav-list {
     list-style-type: none;
+}
+
+.name, .navigation {
+    text-align: center;
+}
+
+/* stylowanie tabeli */
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+.table-header, .table-cell {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 4px;
+    text-align: center;
+}
+
+.table-caption {
+    caption-side: bottom;
+    text-align: right;
+    margin: 10px;
+}
+
+.table-row:hover {
+    background-color: lightpink;
+}
+
+.author {
+    text-align: right;
+    padding: 4px;
 }

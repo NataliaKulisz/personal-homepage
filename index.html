@@ -9,23 +9,23 @@
         <title>Natalia Kulisz</title>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about-me">About me</a></li>
-                <li><a href="skills">Skills</a></li>
-                <li><a href="hobby">Hobby</a></li>
-            </ul>
-        </nav>
-        <header>
+        <header class="header">
             <img src="#" alt="Natalia Kulisz" />
-            <h1 id="home">Natalia Kulisz</h1>
+            <h1 class="name" id="home">Natalia Kulisz</h1>
             <ul class="extbio">
                 <li class="link"><a href="https://github.com/NataliaKulisz">Github</a></li>
                 <li class="link"><a href="https://www.linkedin.com/in/natalia-kulisz/">LinkedIn</a></li>
             </ul>
+            <nav class="navigation-container">
+                <ul class="navigation">
+                    <li class="nav-list"><a href="home">Home</a></li>
+                    <li class="nav-list"><a href="about-me">About me</a></li>
+                    <li class="nav-list"><a href="skills">Skills</a></li>
+                    <li class="nav-list"><a href="hobby">Hobby</a></li>
+                </ul>
+            </nav>
         </header>
-        <main>
+        <main class="content">
             <section>
                 <h2 id="about-me">About me</h2>
                 <p>In a world where technology is developing at the speed of light, I am a person who not only keeps up with this pace, but also contributes to shaping it.</p>
@@ -43,25 +43,25 @@
                 </ul>
 
                 <h2>Languages</h2>
-                <table>
-                    <caption>
+                <table class="table">
+                    <caption class="table-caption">
                         List of languages
                     </caption>
-                    <tr>
-                        <th scope="col">Language</th>
-                        <th scope="col">Level</th>
+                    <tr class="table-row">
+                        <th class="table-header" scope="col">Language</th>
+                        <th class="table-header" scope="col">Level</th>
                     </tr>
-                    <tr>
-                        <th scope="row">Polish</th>
-                        <td>native</td>
+                    <tr class="table-row">
+                        <th class="table-header" scope="row">Polish</th>
+                        <td class="table-cell">native</td>
                     </tr>
-                    <tr>
-                        <th scope="row">English</th>
-                        <td>advanced</td>
+                    <tr class="table-row">
+                        <th class="table-header" scope="row">English</th>
+                        <td class="table-cell">advanced</td>
                     </tr>
-                    <tr>
-                        <th scope="row">German</th>
-                        <td>communicative (A2 certified)</td>
+                    <tr class="table-row">
+                        <th class="table-header" scope="row">German</th>
+                        <td class="table-cell">communicative (A2 certified)</td>
                     </tr>
                 </table>
             </section>
@@ -75,8 +75,8 @@
                 </ul>
             </section>
         </main>
-        <footer>
-            <p>Created by Natalia Kulisz</p>
+        <footer class="footer">
+            <p class="author">Created by Natalia Kulisz</p>
         </footer>
     </body>
 </html>
