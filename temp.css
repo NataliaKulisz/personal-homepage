@@ -1,17 +1,17 @@
 .content, .name, .navigation-container {
     border-width: 2px;
-    border-color: black;
     border-style: solid;
+    border-color: black;
 }
 
 .navigation {
     border-width: 2px;
-    border-color: red;
     border-style: solid;
+    border-color: red;
 }
 
 .nav-list {
     border-width: 2px;
-    border-color: green;
     border-style: solid;
+    border-color: green;
 }

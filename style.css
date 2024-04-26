@@ -7,17 +7,17 @@ html {
 }
 
 body {
-    padding: 4px;
     margin: 8px;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
+    padding: 4px;
     line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    font-size: 20px;
     margin-bottom: 10px;
     color: #333;
+    font-size: 20px;
 }
 
 div {
@@ -27,33 +27,30 @@ div {
 /* ul {
     list-style-type: none;
 } */
-
 section {
     margin-bottom: 30px;
 }
 
 .language-change, .name, .navigation-container, .image, .content, .footer, .navigation {
-    max-width: 800px;
     margin: 4px auto;
     background-color: white;
+    max-width: 800px;
 }
 
 .language-change, .name, .navigation-container, .image, .content, .footer {
     border-width: 1px;
-    border-color: black;
     border-style: solid;
+    border-color: black;
 }
 
-
 /* header styles */
-
 .image img {
-    max-width: 100px;
     border-radius: 50%;
+    max-width: 100px;
 }
 
 .content {
-    padding: 10px;
+    padding: 20px;
 }
 
 .extbio, .nav-list {
@@ -71,13 +68,13 @@ section {
 }
 
 .language-container, .navigation-container {
-    overflow: hidden;
     padding: 0;
+    overflow: hidden;
 }
 
 .language-change, .navigation {
-    list-style-type: none;
     padding: 0;
+    list-style-type: none;
 }
 
 .language-list, .nav-list {
@@ -85,11 +82,11 @@ section {
 }
 
 .language-element, .nav-element {
-    color: black;
     display: block;
-    text-align: center;
     padding: 14px 20px;
+    text-align: center;
     text-decoration: none;
+    color: black;
     font-weight: bold;
 }
 
@@ -97,20 +94,12 @@ section {
     color: #f06292;
 }
 
-
 /* main styles */
-
-.content {
-    padding: 20px;
-}
-
-
 /* table styles */
-
 .table {
-    border-collapse: collapse;
-    width: 100%;
     margin: auto;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .table-header, .table-cell {
@@ -122,9 +111,9 @@ section {
 }
 
 .table-caption {
+    margin: 10px;
     caption-side: bottom;
     text-align: right;
-    margin: 10px;
     font-weight: bold;
 }
 
@@ -132,9 +121,7 @@ section {
     background-color: lightpink;
 }
 
-
 /* link styles */
-
 .link {
     color: #f06292;
 }
@@ -151,12 +138,10 @@ section {
     color: darkgray;
 }
 
-
 /* footer styles */
-
 .footer {
     background-color: #f06292;
-    color: #fff;
-    text-align: center;
     padding: 20px;
+    text-align: center;
+    color: #fff;
 }
