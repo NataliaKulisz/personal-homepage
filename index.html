@@ -3,41 +3,80 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="temp.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" />
-        <script src="script.js"></script>
+        <script defer src="script.js"></script>
         <title>Natalia Kulisz</title>
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about-me">About me</a></li>
+                <li><a href="skills">Skills</a></li>
+                <li><a href="hobby">Hobby</a></li>
+            </ul>
+        </nav>
         <header>
-            <h1>Natalia Kulisz</h1>
+            <img src="#" alt="Natalia Kulisz" />
+            <h1 id="home">Natalia Kulisz</h1>
             <ul class="extbio">
-                <li><a href="https://github.com/NataliaKulisz">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/natalia-kulisz/">LinkedIn</a></li>
+                <li class="link"><a href="https://github.com/NataliaKulisz">Github</a></li>
+                <li class="link"><a href="https://www.linkedin.com/in/natalia-kulisz/">LinkedIn</a></li>
             </ul>
         </header>
         <main>
             <section>
-                <h2>About me</h2>
-                <p>Lorem ipsum</p>
+                <h2 id="about-me">About me</h2>
+                <p>In a world where technology is developing at the speed of light, I am a person who not only keeps up with this pace, but also contributes to shaping it.</p>
+                <p>At the age of only 15, my high school education with a focus on English, mathematics, physics and computer science provides a solid foundation for my passion for programming. Knowledge of C++ is not just a skill for me - it is the language in which I express my most innovative ideas. My experience in this field is the greatest, but my curiosity knows no limits, which led me to also explore Python, JavaScript and Frontend technology. Although I'm at the beginning of this path, I can already see huge potential in the Git environment, which fascinates me with its flexibility and possibilities. Outside the world of codes and algorithms, my life is filled with passions that require discipline and determination.</p>
+                <p>Daily swimming, strength training and scuba diving are not only hobbies, but also metaphors for my approach to life - I immerse myself in the depth of knowledge and persistently pursue my goal. Traveling around the world is another chapter of my book of experiences that teaches me flexibility and openness to new cultures. I am a person who is constantly searching, exploring and not afraid of challenges.</p>
+                <p>My bio is just an introduction to a story that is still being written - a story full of codes, depths and countless paths that are still ahead of me. Are you ready to join my journey?</p>
             </section>
             <section>
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ul>
                     <li>C++</li>
                     <li>Frontend</li>
                     <li>JavaScript</li>
                     <li>Python</li>
                 </ul>
+
+                <h2>Languages</h2>
+                <table>
+                    <caption>
+                        List of languages
+                    </caption>
+                    <tr>
+                        <th scope="col">Language</th>
+                        <th scope="col">Level</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">Polish</th>
+                        <td>native</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">English</th>
+                        <td>advanced</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">German</th>
+                        <td>communicative (A2 certified)</td>
+                    </tr>
+                </table>
             </section>
             <section>
-                <h2>Languages</h2>
+                <h2 id="hobby">Hobby</h2>
                 <ul>
-                    <li>Polish - native</li>
-                    <li>English - advanced</li>
-                    <li>German - communicative (A2 certified)</li>
+                    <li>Professional swimming (butterfly and backstroke)</li>
+                    <li>Scuba diving (Advanced Open Water Diver)</li>
+                    <li>Freediving (11m)</li>
+                    <li>Traveling</li>
                 </ul>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <p>Created by Natalia Kulisz</p>
+        </footer>
     </body>
 </html>
