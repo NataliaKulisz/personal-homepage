@@ -20,7 +20,7 @@ h2 {
     font-size: 20px;
 }
 
-.navigation__list, .header__section, .main, .footer {
+.navigation__list, .header__section, .header__container, .main, .footer {
     margin: 4px auto;
     background-color: white;
     max-width: 800px;
@@ -29,11 +29,16 @@ h2 {
     border-color: black;
 }
 
+.header__container {
+    text-align: center;
+    background-color: lightpink;
+}
 
-/* header styles */
+/* header section styles */
 .header__image {
     border-radius: 50%;
     max-width: 100px;
+    border: 2px solid #f06292;
 }
 
 .main {
@@ -54,7 +59,7 @@ h2 {
     font-size: 24px;
 }
 
-.header__section, .navigation__list {
+.header__section, .header__container, .navigation__list {
     padding: 0;
     overflow: hidden;
 }
