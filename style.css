@@ -20,17 +20,6 @@ h2 {
     font-size: 20px;
 }
 
-div {
-    margin-bottom: 10px;
-}
-
-/* ul {
-    list-style-type: none;
-} */
-section {
-    margin-bottom: 30px;
-}
-
 .language-change, .name, .navigation-container, .image, .content, .footer, .navigation {
     margin: 4px auto;
     background-color: white;
