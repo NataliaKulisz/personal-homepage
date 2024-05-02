@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="..\..\style.css" />
+        <link href="style.css" rel="stylesheet" />
+        <script defer src="script.js"></script>
+        <title>Projects</title>
+    </head>
+    <header class="header">
+        <section class="header__section">
+            <ul class="header__list">
+                <li class="header__listItem"><a class="header__listElement">Polski</a></li>
+                <li class="header__listItem"><a class="header__listElement">Deutsch</a></li>
+            </ul>
+        </section>
+        <section class="header__section">
+            <img class="header__image" src="#" alt="Natalia Kulisz" />
+        </section>
+        <section class="header__section"><h1 class="header__title" id="home">Natalia Kulisz</h1></section>
+
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#home">Home</a></li>
+                <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#about-me">About me</a></li>
+                <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#skills">Skills</a></li>
+                <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#hobby">Hobby</a></li>
+                <li class="navigation__listItem"><a class="navigation__listElement" href="index.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <main>
+            <section class="main__section">
+                <form class="js-form">
+                    <fieldset class="fieldset">
+                        <legend class="legend">Currency converter</legend>
+                        <p>
+                            <label class="label"> <span class="labelText">Enter the amount*: </span><input class="js-amount" type="number" name="amount" required /> </label>
+                        </p>
+                        <p>
+                            <label class="label"
+                                ><span class="labelText">The amount given is in the currency*: </span>
+                                <select name="givenCurrency" class="js-given-currency">
+                                    <option value="pln">PLN</option>
+                                    <option value="euro">Euro</option>
+                                    <option value="dollar">Dollar</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label class="label"
+                                ><span class="labelText">Select target currency*: </span>
+                                <select name="targetCurrency" class="js-target-currency">
+                                    <option value="pln">PLN</option>
+                                    <option value="euro">Euro</option>
+                                    <option value="dollar">Dollar</option>
+                                </select>
+                            </label>
+                        </p>
+                    </fieldset>
+
+                    <p class="button_container">
+                        <button type="submit" class="form_button">Convert currency!!</button>
+                    </p>
+                </form>
+                <div class="result-container">
+                    <p>Current exchange rate: <strong class="js-rate"></strong></p>
+                    <p>Converted it is: <strong class="js-result"></strong></p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__p">Created by Natalia Kulisz</p>
+        </footer>
+    </body>
+</html>
