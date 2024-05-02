@@ -83,6 +83,12 @@ h2 {
     font-size: 20px;
 }
 
+.main__section {
+    margin: 4px auto;
+    background-color: white;
+    padding: 20px;
+}
+
 .main__list, .navigation__listItem {
     list-style-type: none;
 }

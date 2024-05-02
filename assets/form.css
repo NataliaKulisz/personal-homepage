@@ -5,14 +5,6 @@
     text-align: right;
 }
 
-.main__section {
-    margin: 4px auto;
-    border: 1px solid black;
-    background-color: white;
-    padding: 20px;
-    width: 800px;
-}
-
 .js-form, .form_button, .result-container {
     margin: 0 auto;
     max-width: 600px;
