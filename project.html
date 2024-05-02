@@ -3,20 +3,28 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- <link href="..\..\temp.css" rel="stylesheet" /> -->
-        <link href="..\..\normalize.css" rel="stylesheet" />
-        <link rel="stylesheet" href="..\..\style.css" />
-        <link href="style.css" rel="stylesheet" />
-        <script defer src="script.js"></script>
-        <title>Projects</title>
+
+        <!-- <link rel="stylesheet" href="assets/temp.css" /> -->
+        <link rel="stylesheet" href="assets/normalize.css" />
+        <link rel="stylesheet" href="assets/style.css" />
+        <link rel="stylesheet" href="assets/form.css" />
+
+        <script defer src="assets/script.js"></script>
+        <script defer src="assets/form.js"></script>
+
+        <title>Natalia Kulisz</title>
     </head>
 
     <body>
         <header class="header">
             <section class="header__section">
                 <ul class="header__list">
-                    <li class="header__listItem"><a class="header__listElement">Polski</a></li>
-                    <li class="header__listItem"><a class="header__listElement">Deutsch</a></li>
+                    <li class="header__listItem">
+                        <a href="#" class="header__listElement">Polski</a>
+                    </li>
+                    <li class="header__listItem">
+                        <a href="#" class="header__listElement">Deutsch</a>
+                    </li>
                 </ul>
             </section>
 
@@ -30,18 +38,30 @@
 
             <nav class="navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#home">Home</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#about-me">About me</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#skills">Skills</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="../../index.html#hobby">Hobby</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="index.html">Projects</a></li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#home">Home</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#about-me">About me</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#skills">Skills</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#hobby">Hobby</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="project.html">Projects</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <main class="main">
+            <h2 id="projects">Frontend - Projects</h2>
             <section class="main__section">
-                <h2 id="projects">Projects</h2>
+                <h3>Currency converter: PLN / EUR / USD</h3>
+
                 <form class="js-form">
                     <fieldset class="fieldset">
                         <legend class="legend">Currency converter</legend>
@@ -80,7 +100,7 @@
                     </fieldset>
 
                     <p class="button_container">
-                        <button type="submit" class="form_button">Convert currency!!</button>
+                        <button type="submit" class="form_button">Convert currency!</button>
                     </p>
                 </form>
 

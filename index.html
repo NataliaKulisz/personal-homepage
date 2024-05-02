@@ -3,10 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- <link href="temp.css" rel="stylesheet" /> -->
-        <link href="normalize.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" />
-        <script defer src="script.js"></script>
+
+        <!-- <link rel="stylesheet" href="assets/temp.css" /> -->
+        <link rel="stylesheet" href="assets/normalize.css" />
+        <link rel="stylesheet" href="assets/style.css" />
+        <link rel="stylesheet" href="assets/form.css" />
+
+        <script defer src="assets/script.js"></script>
+        <script defer src="assets/form.js"></script>
+
         <title>Natalia Kulisz</title>
     </head>
 
@@ -14,8 +19,12 @@
         <header class="header">
             <section class="header__section">
                 <ul class="header__list">
-                    <li class="header__listItem"><a class="header__listElement">Polski</a></li>
-                    <li class="header__listItem"><a class="header__listElement">Deutsch</a></li>
+                    <li class="header__listItem">
+                        <a href="#" class="header__listElement">Polski</a>
+                    </li>
+                    <li class="header__listItem">
+                        <a href="#" class="header__listElement">Deutsch</a>
+                    </li>
                 </ul>
             </section>
 
@@ -29,19 +38,29 @@
 
             <nav class="navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="#home">Home</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="#about-me">About me</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="#skills">Skills</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="#hobby">Hobby</a></li>
-                    <li class="navigation__listItem"><a class="navigation__listElement" href="/projects/currency-converter/index.html">Projects</a></li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#home">Home</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#about-me">About me</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#skills">Skills</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="index.html#hobby">Hobby</a>
+                    </li>
+                    <li class="navigation__listItem">
+                        <a class="navigation__listElement" href="project.html">Projects</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <main class="main">
-            <section class="main__section">
-                <h2 id="about-me">About me</h2>
+            <h2 id="about-me">About me</h2>
 
+            <section class="main__section">
                 <p>In a world where technology is developing at the speed of light, I am a person who not only keeps up with this pace, but also contributes to shaping it.</p>
 
                 <p>At the age of only 16, my high school education with a focus on English, mathematics, physics and computer science provides a solid foundation for my passion for programming. Knowledge of C++ is not just a skill for me - it is the language in which I express my most innovative ideas. My experience in this field is the greatest, but my curiosity knows no limits, which led me to also explore Python, JavaScript and Frontend technology. Although I'm at the beginning of this path, I can already see huge potential in the Git environment, which fascinates me with its flexibility and possibilities.</p>
@@ -78,22 +97,27 @@
                 </ul>
 
                 <h2>Languages</h2>
+
                 <table class="table">
                     <caption class="table__caption">
                         List of languages
                     </caption>
+
                     <tr class="table___row">
                         <th class="table__header" scope="col">Language</th>
                         <th class="table__header" scope="col">Level</th>
                     </tr>
+
                     <tr class="table___row">
                         <th class="table__header" scope="row">Polish</th>
                         <td class="table-cell">native</td>
                     </tr>
+
                     <tr class="table___row">
                         <th class="table__header" scope="row">English</th>
                         <td class="table-cell">advanced</td>
                     </tr>
+
                     <tr class="table___row">
                         <th class="table__header" scope="row">German</th>
                         <td class="table-cell">communicative (A2 certified)</td>
