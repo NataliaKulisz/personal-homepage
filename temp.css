@@ -1,16 +1,16 @@
-.content, .name, .navigation-container {
+.main, .header__title, .navigation__list {
     border-width: 2px;
     border-style: solid;
     border-color: black;
 }
 
-.navigation {
+.navigation__list {
     border-width: 2px;
     border-style: solid;
     border-color: red;
 }
 
-.nav-list {
+.navigation__listItem {
     border-width: 2px;
     border-style: solid;
     border-color: green;

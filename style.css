@@ -20,57 +20,55 @@ h2 {
     font-size: 20px;
 }
 
-.language-change, .name, .navigation-container, .image, .content, .footer, .navigation {
+.navigation__list, .header__section, .main, .footer {
     margin: 4px auto;
     background-color: white;
     max-width: 800px;
-}
-
-.language-change, .name, .navigation-container, .image, .content, .footer {
     border-width: 1px;
     border-style: solid;
     border-color: black;
 }
 
+
 /* header styles */
-.image img {
+.header__image {
     border-radius: 50%;
     max-width: 100px;
 }
 
-.content {
+.main {
     padding: 20px;
 }
 
-.extbio, .nav-list {
+.main__list, .navigation__listItem {
     list-style-type: none;
 }
 
-.name, .navigation {
+.header__title, .navigation__list {
     text-align: center;
 }
 
-.name {
+.header__title {
     padding: 20px;
     color: #f06292;
     font-size: 24px;
 }
 
-.language-container, .navigation-container {
+.header__section, .navigation__list {
     padding: 0;
     overflow: hidden;
 }
 
-.language-change, .navigation {
+.header__list, .navigation__list {
     padding: 0;
     list-style-type: none;
 }
 
-.language-list, .nav-list {
+.header__listItem, .navigation__listItem {
     display: inline-block;
 }
 
-.language-element, .nav-element {
+.header__listElement, .navigation__listElement {
     display: block;
     padding: 14px 20px;
     text-align: center;
@@ -79,11 +77,11 @@ h2 {
     font-weight: bold;
 }
 
-.language-element:hover, .nav-element:hover {
+.header__listElement:hover, .navigation__listElement:hover {
     color: #f06292;
 }
 
-/* main styles */
+
 /* table styles */
 .table {
     margin: auto;
@@ -91,7 +89,7 @@ h2 {
     border-collapse: collapse;
 }
 
-.table-header, .table-cell {
+.table__header, .table-cell {
     border-width: 1px;
     border-style: solid;
     border-color: #ccc;
@@ -99,33 +97,35 @@ h2 {
     text-align: center;
 }
 
-.table-caption {
+.table__caption {
     margin: 10px;
     caption-side: bottom;
     text-align: right;
     font-weight: bold;
 }
 
-.table-row:hover {
+.table___row:hover {
     background-color: lightpink;
 }
 
+
 /* link styles */
-.link {
+.main__link {
     color: #f06292;
 }
 
-.link:visited {
+.main__link:visited {
     color: darkgray;
 }
 
-.link:hover {
+.main__link:hover {
     color: lightpink;
 }
 
-.link:active {
+.main__link:active {
     color: darkgray;
 }
+
 
 /* footer styles */
 .footer {
