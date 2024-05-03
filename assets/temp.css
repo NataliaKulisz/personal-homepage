@@ -1,7 +1,32 @@
-.main, .header__title, .navigation__list {
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
+* {
+    /* padding: 8px; */
+    /* margin: 8px; */
+
+}
+
+.header, .main, .footer {
+    border: 1px solid black;
+}
+
+.header__lang {
+    border: 1px solid red;
+}
+
+.header__logo {
+    border: 1px solid green;
+}
+
+.header__name {
+    border: 1px solid yellow;
+}
+
+
+.header__navigation {
+    border: 1px solid blue;
+}
+
+.main__section {
+    border: 1px solid fuchsia;
 }
 
 .navigation__list {

@@ -7,7 +7,7 @@
         <!-- <link rel="stylesheet" href="assets/temp.css" /> -->
         <link rel="stylesheet" href="assets/normalize.css" />
         <link rel="stylesheet" href="assets/style.css" />
-        <link rel="stylesheet" href="assets/form.css" />
+        <!-- <link rel="stylesheet" href="assets/form.css" /> -->
 
         <script defer src="assets/script.js"></script>
         <script defer src="assets/form.js"></script>
@@ -15,50 +15,50 @@
         <title>Natalia Kulisz</title>
     </head>
 
-    <body>
+    <body class="body">
         <header class="header">
-            <section class="header__section">
-                <ul class="header__list">
-                    <li class="header__listItem">
-                        <a href="#" class="header__listElement">Polski</a>
+            <section class="header__lang">
+                <ul class="header__langList">
+                    <li class="header__langListItem">
+                        <a href="#" class="header__langListItemElement">Polski</a>
                     </li>
-                    <li class="header__listItem">
-                        <a href="#" class="header__listElement">Deutsch</a>
+                    <li class="header__langListItem">
+                        <a href="#" class="header__langListItemElement">Deutsch</a>
                     </li>
                 </ul>
             </section>
 
-            <section class="header__container">
-                <img class="header__image" src="assets/natalia-kulisz.webp" alt="Natalia Kulisz" />
+            <section class="header__logo">
+                <a class="header__logoLink" href="#"><img class="header__logoLinkImage" src="assets/natalia-kulisz.webp" alt="Natalia Kulisz" /></a>
             </section>
 
-            <section class="header__section">
-                <h1 class="header__title" id="home">Natalia Kulisz</h1>
+            <section class="header__name">
+                <h1 class="header__nameTitle" id="home">Natalia Kulisz</h1>
             </section>
 
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__listItem">
-                        <a class="navigation__listElement" href="index.html#home">Home</a>
+            <nav class="header__navigation">
+                <ul class="header__navigationList">
+                    <li class="header__navigationListItem">
+                        <a class="header__navigationListItemElement" href="index.html#home">Home</a>
                     </li>
-                    <li class="navigation__listItem">
-                        <a class="navigation__listElement" href="index.html#about-me">About me</a>
+                    <li class="header__navigationListItem">
+                        <a class="header__navigationListItemElement" href="index.html#about-me">About me</a>
                     </li>
-                    <li class="navigation__listItem">
-                        <a class="navigation__listElement" href="index.html#skills">Skills</a>
+                    <li class="header__navigationListItem">
+                        <a class="header__navigationListItemElement" href="index.html#skills">Skills</a>
                     </li>
-                    <li class="navigation__listItem">
-                        <a class="navigation__listElement" href="index.html#hobby">Hobby</a>
+                    <li class="header__navigationListItem">
+                        <a class="header__navigationListItemElement" href="index.html#hobby">Hobby</a>
                     </li>
-                    <li class="navigation__listItem">
-                        <a class="navigation__listElement" href="project.html">Projects</a>
+                    <li class="header__navigationListItem">
+                        <a class="header__navigationListItemElement" href="project.html">Projects</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
         <main class="main">
-            <h2 id="about-me">About me</h2>
+            <h2 class="main_title" id="about-me">About me</h2>
 
             <section class="main__section">
                 <p>In a world where technology is developing at the speed of light, I am a person who not only keeps up with this pace, but also contributes to shaping it.</p>
@@ -74,74 +74,76 @@
                 <p>My bio is just an introduction to a story that is still being written - a story full of codes, depths and countless paths that are still ahead of me. Are you ready to join my journey?</p>
             </section>
 
-            <section>
+            <section class="main__section">
                 <h2>Platforms</h2>
 
-                <ul class="main__list">
-                    <li><a class="main__link" href="https://github.com/NataliaKulisz">Github</a></li>
-                    <li><a class="main__link" href="https://www.linkedin.com/in/natalia-kulisz/">LinkedIn</a></li>
+                <ul class="main__sectionList">
+                    <li class="main__sectionListItem"><a class="main__sectionListItemElement" href="https://github.com/NataliaKulisz">Github</a></li>
+                    <li class="main__sectionListItem"><a class="main__sectionListItemElement" href="https://www.linkedin.com/in/natalia-kulisz/">LinkedIn</a></li>
                 </ul>
             </section>
 
-            <section>
+            <section class="main__section">
                 <h2 id="skills">Skills</h2>
 
-                <ul>
-                    <li>
+                <ul class="main__sectionList">
+                    <li class="main__sectionListItem">
                         C++
                         <ul>
-                            <li>If you're looking for High School scripts,<br />feel free to double check my <a class="main__link" href="https://github.com/NataliaKulisz/cpp-highschool-2">Github repository: cpp-highschool-2</a></li>
+                            <li class="main__sectionListItem">If you're looking for High School scripts,<br />feel free to double check my <a class="main__sectionListItemElement" href="https://github.com/NataliaKulisz/cpp-highschool-2">Github repository: cpp-highschool-2</a></li>
                         </ul>
                     </li>
 
-                    <li>Frontend</li>
-                    <li>JavaScript</li>
-                    <li>Python</li>
+                    <li class="main__sectionListItem">Frontend</li>
+                    <li class="main__sectionListItem">JavaScript</li>
+                    <li class="main__sectionListItem">Python</li>
                 </ul>
+            </section>
 
+            <section class="main__section">
                 <h2>Languages</h2>
 
-                <table class="table">
-                    <caption class="table__caption">
+                <table class="main__sectionTable">
+                    <caption class="main__sectionTableCaption">
                         List of languages
                     </caption>
 
-                    <tr class="table___row">
-                        <th class="table__header" scope="col">Language</th>
-                        <th class="table__header" scope="col">Level</th>
+                    <tr class="main__sectionTableRow">
+                        <th class="main__sectionTableRowHeader" scope="col">Language</th>
+                        <th class="main__sectionTableRowHeader" scope="col">Level</th>
                     </tr>
 
-                    <tr class="table___row">
-                        <th class="table__header" scope="row">Polish</th>
-                        <td class="table-cell">native</td>
+                    <tr class="main__sectionTableRow">
+                        <th class="main__sectionTableRowHeader" scope="row">Polish</th>
+                        <td class="main__sectionTableRowCell">native</td>
                     </tr>
 
-                    <tr class="table___row">
-                        <th class="table__header" scope="row">English</th>
-                        <td class="table-cell">advanced</td>
+                    <tr class="main__sectionTableRow">
+                        <th class="main__sectionTableRowHeader" scope="row">English</th>
+                        <td class="main__sectionTableRowCell">advanced</td>
                     </tr>
 
-                    <tr class="table___row">
-                        <th class="table__header" scope="row">German</th>
-                        <td class="table-cell">communicative (A2 certified)</td>
+                    <tr class="main__sectionTableRow">
+                        <th class="main__sectionTableRowHeader" scope="row">German</th>
+                        <td class="main__sectionTableRowCell">communicative (A2 certified)</td>
                     </tr>
                 </table>
             </section>
 
-            <section>
+            <section class="main__section">
                 <h2 id="hobby">Hobby</h2>
 
-                <ul>
-                    <li>Professional swimming (butterfly and backstroke)</li>
-                    <li>Scuba diving (Advanced Open Water Diver)</li>
-                    <li>Freediving (11m)</li>
-                    <li>Traveling</li>
+                <ul class="main__sectionList">
+                    <li class="main__sectionListItem">Professional swimming (butterfly and backstroke)</li>
+                    <li class="main__sectionListItem">Scuba diving (Advanced Open Water Diver)</li>
+                    <li class="main__sectionListItem">Freediving (11m)</li>
+                    <li class="main__sectionListItem">Traveling</li>
                 </ul>
             </section>
         </main>
 
         <footer class="footer">
-            <p class="footer__p">Created by Natalia Kulisz</p>
+            <p class="footer__element">Created by Natalia Kulisz</p>
         </footer>
     </body>
 </html>
